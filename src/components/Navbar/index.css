@@ -1,0 +1,20 @@
+.navBar {
+	display: flex;
+	flex: 0 0 auto;
+}
+.navLink {
+	display: flex;
+	align-items: flex-end;
+	padding: 12px;
+	text-decoration: none;
+	flex: 0 0 auto;
+}
+.navLink span {
+	margin: 0px;
+}
+.navLink:visited {
+	color: inherit;
+}
+.navLink:hover {
+	color: #888;
+}

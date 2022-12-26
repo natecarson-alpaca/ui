@@ -1,0 +1,39 @@
+main.landingPage {
+	background-image: url('/hero-background.png');
+	background-size: cover;
+	background-position-y: center;
+	flex: 1 0;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+}
+section.hero {
+	flex: 0 1;
+	display: flex;
+	flex-flow: column nowrap;
+	padding: 24px;
+	align-items: center;
+	border: 1px solid #ddd;
+	background-color: rgba(238, 238, 238, 0.9);
+}
+button.callToAction {
+	outline: none;
+	border: none;
+	font-size: 2rem;
+	padding: 12px 24px;
+	border-radius: 2rem;
+	margin-top: 24px;
+	background-color: #e00;
+	color: #eee;
+}
+button.callToAction:hover {
+	cursor: pointer;
+	background-color: #d00;
+}
+button.callToAction:active {
+	background-color: #b00;
+}
+button.callToAction > span {
+	margin-right: 12px;
+}

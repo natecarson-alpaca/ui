@@ -1,0 +1,6 @@
+main.shopPage {
+	flex: 1 0;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
