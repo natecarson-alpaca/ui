@@ -1,6 +1,6 @@
 # UI
 
-This is the React-based UI, bundling with Vite.
+This is the React-based UI, bundling with Vite, with testing run through Vitest.
 
 ## To initialize
 
